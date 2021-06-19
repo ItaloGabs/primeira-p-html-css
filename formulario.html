@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+        <link href="_Css/Estilo.css" rel="stylesheet" media="screen" type="text/css">
+        <script src="Java.js"></script>
+        <style>
+            .selec{margin-bottom: 20px;}
+        </style>
+    </head>
+
+    <body>
+        <h2>Cadastro</h2>
+        <form action="novo.html" method="post">
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome" size="30" maxlength="50" required placeholder="Insira um nome" autofocus>
+            
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required placeholder="Insira um numero">
+            
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" required placeholder="Digite uma senha">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="Insira um Email">
+            
+            <label for="data">Data de Aniversario</label>
+            <input type="date" name="date" id="date">
+            
+            <label for="escolha" class="escolha">Sexo</label>
+            <select name=" jogos" id="jogos" required class="selec">
+                <option value="0" selected>Selecione uma opção</option>
+                <option value="1">Masculino</option>
+                <option value="2">Feminino</option>
+            </select>   
+            <input type="submit" value="Cadastrar" onclick="TudoOK()">
+        </form>
+        
+    
+    </body>
+</html>

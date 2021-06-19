@@ -1,0 +1,18 @@
+html{background-image:url(wallpaper-gamer.jpg)}
+            
+            main{ width: 959px;margin: -1px auto 10px;border: 1px solid#000;background-color: whitesmoke;
+            }
+            header{width:535;}
+            article{margin: 9px;padding: -60px}
+            h1{font-family:Georgia, "Times New Roman", Times, serif; color:#C63; font-style:italic; letter-spacing:-0.05em}
+            nav{background-color: #000}
+            nav ul{margin: -5px;padding: 5px;}
+            nav li{list-style: none;display: inline-block;}
+            nav li a{font-style: italic;text-decoration-color: darkorchid;color:cornflowerblue;margin: 10px 90px}
+            nav li a:hover{text-decoration: chocolate;padding: 1px 20px;}
+            figure{border: 1px solid#000;}
+            footer { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
+            table{width: 200px; margin:5px;
+        ;border: 2px solid#000;
+            }
+            th,td,tr{border: 1px solid#000}
